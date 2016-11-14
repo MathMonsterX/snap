@@ -171,6 +171,11 @@ var (
 				},
 			},
 		},
+                {
+                    Name:        "version",
+                    Description: "Outputs the version of snap installed on the system.",
+                    Action:      Version,
+                },
 	}
 	tribeWarning  = "Can only be used when tribe mode is enabled."
 	tribeCommands = []cli.Command{
